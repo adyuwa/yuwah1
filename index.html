@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box {
+        width: 200px;
+        height: 200px;
+        border: 3px solid #ADFF2F;;
+        position: absolute;
+        left: 300px;
+        top: 420px;
+    }
+    .box ul li{
+        width: 100%;
+        height: 40px;
+    }
+    .bo {
+        width: auto;
+        height: 250px;
+    }
+    .box1 {     
+        border-radius: 10%;
+        border: 3px solid red;
+    }
+    .box2 {
+        border-radius: 10%;
+        border: 3px solid green;
+    }
+    li {
+        margin-right: 100px;
+    }
+    .a {
+        z-index: 1;
+        position: absolute;
+        left: 700px;
+        top: 420px;
+    }
+    .b{
+        z-index: 2;
+        position: absolute;
+        left: 860px;
+        top: 540px;
+    }
+
+</style>
+
+<body>
+    <div style="text-align: center; ">
+        <ul style="list-style-type: none; display: flex; justify-content: center;">
+            <li><img src="images/dmd_logo.png" alt=""  style="width: 300px;"></li>
+            <li><p  style="margin-top: 25px;color: blue;">最新消息</p></li>
+            <li><p  style="margin-top: 25px;color: blue;">師資陣容</p></li>
+        </ul>
+        <img src="images/2012_dance.jpg" alt="" style="width: 900px;height: 300px;">
+    </div>
+    <div class="bo">
+        <ul style="list-style-type: none; display: flex; justify-content: center;">
+            <li class="box">
+                <ul style="list-style-type: none; justify-content: center;">
+                    <li style="font-weight: bold;font-size: 150%;">---活動訊息---</li>
+                    <li style="text-align: center;font-size: 120%;">新生宿營</li>
+                    <li style="text-align: center;font-size: 120%;">合唱比賽</li>
+                    <li style="text-align: center;font-size: 120%;">啦啦隊比賽</li>
+                </ul>
+            </li>
+            <li>
+                <div class="a">
+                    <img src="images/img_17.jpg" alt="" style="width: 200px;" class="box1">
+                </div>
+                <div class="b">
+                    <img src="images/img_18.jpg" alt="" style="width: 200px;" class="box2">
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <p style="color: purple;font-weight: bold;font-size: 360%;text-align: center;">----------------------------------------------</p>
+    </div>
+    <div style="text-align: center;">
+        <h3>銘傳大學校區</h3>
+        <p><small>台北校區：臺北市中山北路五段 250 號/電話: 02 2882-4564&nbsp;&nbsp;&nbsp;&nbsp; 桃園校區：桃園市龜山區大同里德明路 5 號/電話: 03 350-7001</small></p>  
+        <p><small>基河校區：臺北市基河路 130 號 3 樓/電話: 02 2882-4564&nbsp;&nbsp;&nbsp;&nbsp; 金門校區：金門縣金沙鎮西園里德明路105號/電話: 082 355-233</small></p>
+        <p><small>Michigan Location: Gilbertson Hall, Saginaw Valley State University, 7400 Bay Road, Saginaw, MI 48710 U.S.A.</small></p>
+        <p><small>Telephone: 1-989-964-2497 (U.S.); +886 2 2882-4564 Ext. 2539 (Taiwan)</small></p>
+    </div>
+</body>
+</html>
